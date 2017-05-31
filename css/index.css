@@ -1,0 +1,253 @@
+body {
+  background: #f2f2f2;
+}
+.top {
+  height: 42px;
+  background: #fecb16;
+  line-height: 42px;
+  color: #ff5f10;
+}
+.top span {
+  margin-right: 104px;
+  font-size: 18px;
+}
+.top span.last {
+  margin-right: 0;
+}
+.container-fluid {
+  padding: 0 70px;
+}
+.navbar.navbar-default {
+  background: #000000;
+}
+.navbar .navbar-header img {
+  display: inline-block;
+}
+.navbar .navbar-header img.two {
+  height: 92%;
+}
+.navbar .navbar-header .navbar-brand {
+  padding: 0;
+}
+.navbar #bs .nav li {
+  position: relative;
+}
+.navbar #bs .nav li.hot {
+  margin-right: 5px;
+}
+.navbar #bs .nav li i {
+  position: absolute;
+  top: 0;
+  right: -12px;
+  font-size: 6px;
+  background: #d82133;
+  color: #fff;
+  padding: 0 2px;
+  overflow: hidden;
+}
+.navbar #bs form .img1 {
+  line-height: 50px;
+  margin-left: 10px;
+}
+.navbar #bs form .img1.font {
+  color: #a9a9a9;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+.title .container {
+  background: #fff;
+}
+.title .container .row .list {
+  min-height: 130px;
+  border-bottom: 1px solid #cccccc;
+}
+.title .container .row .list.list1 {
+  min-height: 150px;
+  border-bottom: 0;
+}
+.title .container .row .list span {
+  padding: 10px 20px;
+  color: #14191e;
+  font-size: 14px;
+  margin-bottom: 15px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.title .container .row .list ul li {
+  margin: 10px 5px;
+  list-style-type: none;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  padding: 0 20px;
+}
+.title .container .row .list ul li.both {
+  background: #188eee;
+}
+.title .container .row .list ul li.both a {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .title {
+    min-height: 150px;
+  }
+  .title .container .row .list {
+    border-bottom: 0;
+    min-height: 100px;
+    border-bottom: 0 solid #cccccc;
+  }
+  .title .container .row .list span {
+    float: none;
+    font-size: 20px;
+    color: #170000;
+    line-height: 60px;
+  }
+  .title .container .row .list ul li {
+    background: #ccc;
+    margin: 10px 5px;
+  }
+}
+.main {
+  margin-top: 40px;
+}
+.main .container .col-lg-3 {
+  margin-top: 44px;
+}
+.main .container .col-lg-3 .img23 {
+  height: 176px;
+  background: #fff;
+}
+.main .container .col-lg-3 .img23 img {
+  width: 100%;
+  display: block;
+}
+.main .container .col-lg-3 .coption {
+  width: 100%;
+  height: 98px;
+  background: #fff;
+  padding: 0 15px;
+}
+.main .container .col-lg-3 .coption h3 {
+  margin-top: 0;
+  font-size: 14px;
+  color: #000000;
+  padding-top: 38px;
+  margin-bottom: 25px;
+}
+.main .container .col-lg-3 .coption p {
+  color: #b29999;
+}
+.main .container .col-lg-3 .coption p i {
+  margin-right: 10px;
+}
+.page .pagination li a {
+  background: none;
+  border: 0;
+  border-radius: 50%;
+}
+.page .pagination li.active a {
+  background: #188eee;
+  color: #fff;
+}
+.footer {
+  width: 100%;
+  background: #fff;
+  padding: 40px 0 0 0;
+}
+.footer .link .panel-title {
+  color: #000000;
+  font-size: 14px;
+}
+.footer .link .panel-body a {
+  margin: 18px 34px 0 0 ;
+  color: #999999;
+  font-size: 12px;
+}
+.footer .link .panel-body a.last {
+  margin-left: 0;
+}
+.footer .foot ul {
+  margin-top: 100px;
+}
+.footer .foot ul li {
+  list-style: none;
+  line-height: 35px;
+}
+.footer .foot ul li a {
+  color: #999999;
+  font-size: 12px;
+}
+.footer .foot ul li.one a {
+  color: #000000;
+  margin-top: 20px;
+}
+.footer .foot p {
+  margin-top: 40px;
+}
+.footer .foot p span {
+  color: #000;
+  font-size: 12px;
+  display: block;
+}
+.footer .foot p .tel {
+  font-size: 20px;
+  color: #000;
+  margin: 18px 0 10px 0 ;
+}
+.footer .foot p .tel.tel1 {
+  margin: 0;
+}
+.footer .foot p .fuwu {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.footer .foot p .but {
+  margin-top: 20px;
+}
+.footer .foot p i {
+  margin-top: 20px;
+  height: 20px;
+  border: 1px solid #188eee;
+  padding: 5px 15px;
+  background: url(../img/indexg_07.jpg) no-repeat 5px center;
+  padding-left: 25px;
+}
+.footer .buttom {
+  margin: 50px 0;
+}
+.footer .buttom .but u {
+  text-decoration: none;
+}
+.footer .buttom .but span {
+  border: 1px solid #4ba3d1;
+  background: #4ba3d1;
+  color: #fff;
+  padding: 4px 8px 4px 2px;
+}
+.footer .buttom .but font {
+  color: #ff0000;
+  margin-left: 6px;
+  border-radius: 8px;
+}
+.footer .buttom .but .sta {
+  margin-left: 20px;
+  color: #ff0000;
+}
+.copy {
+  padding: 40px 0;
+}
+.copy .cop {
+  font-size: 16px;
+  color: #999999;
+}
+.copy .hao {
+  background: url(../img/indexg_18.jpg) no-repeat 390px center;
+  padding-left: 20px;
+}
+.copy .hao span {
+  margin-left: 48px;
+}
